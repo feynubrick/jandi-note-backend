@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from jandinote.configs.env import env
+from project.configs.env import env
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -40,7 +40,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'jandinote.common.urls'
+ROOT_URLCONF = 'project.common.urls'
 
 TEMPLATES = [
     {
@@ -58,7 +58,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'jandinote.configs.wsgi.application'
+WSGI_APPLICATION = 'project.configs.wsgi.application'
 
 
 # Database
